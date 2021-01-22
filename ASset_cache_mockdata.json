@@ -1,0 +1,922 @@
+{
+	"_id": "2401397406950000",
+	"info": {
+		"createdDate": "new Date()",
+		"lastUpdatedDate": "new Date()",
+		"recExpiryDate": "new Date() + 365 Days",
+		"isValid": true,
+		"objectType": "ASSET-Domain-Cache",
+		"objectUId": "2401397406950000",
+		"assetType": "BVOIP_PRESENCE",
+		"assetStatus": "<asset Status>",
+		"identifiers": [
+			"18067993755"
+		],
+		"identifier": {
+			"standPhNumIdentifier": [
+				"18067993755"
+			]
+		},
+		"crossRefEntities": [
+			"1111824"
+		],
+		"crossRefEntity": {
+			"anchorUId": "1111824"
+		},
+		"endToEndKey": []
+	},
+	"details": {
+		"customer": [
+			{
+	"info": {
+		"type": "object",
+		"properties": {
+			"createEvent": {
+				"type": "object",
+				"properties": {
+					"timeStamp": {
+						"type": "string"
+					},
+					"path": {
+						"type": "string"
+					},
+					"sourceSystem": {
+						"type": "string"
+					},
+					"user": {
+						"type": "string"
+					}
+				}
+			},
+			"lastUpdatEvent": {
+				"type": "object",
+				"properties": {
+					"timeStamp": {
+						"type": "string"
+					},
+					"endTimeStamp": {
+						"type": "string"
+					},
+					"path": {
+						"type": "string"
+					},
+					"sourceSystem": {
+						"type": "string"
+					},
+					"user": {
+						"type": "string"
+					}
+				}
+			},
+			"objectType": {
+				"type": "string"
+			},
+			"customerType": {
+				"type": "string"
+			},
+			"objectUId": {
+				"type": "string"
+			},
+			"identifier": {
+				"type": "string"
+			},
+			"relatedCustomers": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"customerHierRelationId": {
+							"type": "integer"
+						},
+						"typeWhat": {
+							"type": "string"
+						},
+						"typeTo": {
+							"type": "string"
+						},
+						"parentcustomerUId": {
+							"type": "string"
+						},
+						"customerUId": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	},
+	"customer": {
+		"type": "object",
+		"properties": {
+			"details": {
+				"type": "object",
+				"properties": {
+					"customerName": {
+						"type": "string"
+					},
+					"customerIdentifierType": {
+						"type": "string"
+					},
+					"customerIdentifierValue": {
+						"type": "string"
+					},
+					"segment": {
+						"type": "string"
+					},
+					"owningAttuid": {
+						"type": "string"
+					},
+					"createdBy": {
+						"type": "string"
+					},
+					"updatedBy": {
+						"type": "string"
+					},
+					"customerStatus": {
+						"type": "string"
+					},
+					"transactionId": {
+						"type": "string"
+					},
+					"createdTs": {
+						"type": "string"
+					},
+					"updTs": {
+						"type": "string"
+					},
+					"endTs": {
+						"type": "string"
+					},
+					"orgaliasName": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"federalContractType": {
+						"type": "string"
+					},
+					"customerType": {
+						"type": "string"
+					},
+					"changeUser": {
+						"type": "string"
+					},
+					"changeSystem": {
+						"type": "string"
+					},
+					"dunsNumber": {
+						"type": "string"
+					},
+					"anchorCustomerUId": {
+						"type": "string"
+					},
+					"accountUsageType": {
+						"type": "string"
+					},
+					"salesGroup": {
+						"type": "string"
+					},
+					"ubSubaccountDescription": {
+						"type": "string"
+					},
+					"nodeName": {
+						"type": "string"
+					},
+					"migrationStatus": {
+						"type": "string"
+					},
+					"customerGovernanceTeam": {
+						"type": "string"
+					},
+					"resellerIndicator": {
+						"type": "boolean"
+					},
+					"parentCustomerUId": {
+						"type": "string"
+					},
+					"testInd": {
+						"type": "boolean"
+					},
+					"customerSubType": {
+						"type": "string"
+					},
+					"GovernmentData": {
+						"type": "object",
+						"properties": {
+							"govermentAccountType": {
+								"type": "string"
+							},
+							"desginatedAgencyRep": {
+								"type": "string"
+							},
+							"agcFlag": {
+								"type": "boolean"
+							},
+							"TaskOrderList": {
+								"type": "array",
+								"items": {
+									"minItems": 0,
+									"maxItems": 10,
+									"type": "object",
+									"properties": {
+										"taskOrderID": {
+											"type": "string"
+										},
+										"startDate": {
+											"type": "string"
+										},
+										"endDate": {
+											"type": "string"
+										},
+										"spendingLimit": {
+											"type": "string"
+										},
+										"orderRepresentive": {
+											"type": "string"
+										},
+										"action": {
+											"type": "string",
+											"enum": [
+												"A", "C", "D", "N"
+											]
+										},
+										"taskOrderType": {
+											"type": "string"
+										},
+										"serviceList": {
+											"type": "array",
+											"items": {
+												"minItems": 0,
+												"maxItems": 20,
+												"type": "string",
+												"enum": [
+													"CAAS", "NETBOND", "STAAS"
+												]
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+},
+{
+	"info": {
+		"type": "object",
+		"properties": {
+			"createEvent": {
+				"type": "object",
+				"properties": {
+					"timeStamp": {
+						"type": "string"
+					},
+					"path": {
+						"type": "string"
+					},
+					"sourceSystem": {
+						"type": "string"
+					},
+					"user": {
+						"type": "string"
+					}
+				}
+			},
+			"lastUpdatEvent": {
+				"type": "object",
+				"properties": {
+					"timeStamp": {
+						"type": "string"
+					},
+					"endTimeStamp": {
+						"type": "string"
+					},
+					"path": {
+						"type": "string"
+					},
+					"sourceSystem": {
+						"type": "string"
+					},
+					"user": {
+						"type": "string"
+					}
+				}
+			},
+			"objectType": {
+				"type": "string"
+			},
+			"customerType": {
+				"type": "string"
+			},
+			"objectUId": {
+				"type": "string"
+			},
+			"identifier": {
+				"type": "string"
+			},
+			"relatedCustomers": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"customerHierRelationId": {
+							"type": "integer"
+						},
+						"typeWhat": {
+							"type": "string"
+						},
+						"typeTo": {
+							"type": "string"
+						},
+						"parentcustomerUId": {
+							"type": "string"
+						},
+						"customerUId": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	},
+	"customer": {
+		"type": "object",
+		"properties": {
+			"details": {
+				"type": "object",
+				"properties": {
+					"customerName": {
+						"type": "string"
+					},
+					"customerIdentifierType": {
+						"type": "string"
+					},
+					"customerIdentifierValue": {
+						"type": "string"
+					},
+					"segment": {
+						"type": "string"
+					},
+					"owningAttuid": {
+						"type": "string"
+					},
+					"createdBy": {
+						"type": "string"
+					},
+					"updatedBy": {
+						"type": "string"
+					},
+					"customerStatus": {
+						"type": "string"
+					},
+					"transactionId": {
+						"type": "string"
+					},
+					"createdTs": {
+						"type": "string"
+					},
+					"updTs": {
+						"type": "string"
+					},
+					"endTs": {
+						"type": "string"
+					},
+					"orgaliasName": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"federalContractType": {
+						"type": "string"
+					},
+					"customerType": {
+						"type": "string"
+					},
+					"changeUser": {
+						"type": "string"
+					},
+					"changeSystem": {
+						"type": "string"
+					},
+					"dunsNumber": {
+						"type": "string"
+					},
+					"anchorCustomerUId": {
+						"type": "string"
+					},
+					"accountUsageType": {
+						"type": "string"
+					},
+					"salesGroup": {
+						"type": "string"
+					},
+					"ubSubaccountDescription": {
+						"type": "string"
+					},
+					"nodeName": {
+						"type": "string"
+					},
+					"migrationStatus": {
+						"type": "string"
+					},
+					"customerGovernanceTeam": {
+						"type": "string"
+					},
+					"resellerIndicator": {
+						"type": "boolean"
+					},
+					"parentCustomerUId": {
+						"type": "string"
+					},
+					"testInd": {
+						"type": "boolean"
+					},
+					"customerSubType": {
+						"type": "string"
+					},
+					"GovernmentData": {
+						"type": "object",
+						"properties": {
+							"govermentAccountType": {
+								"type": "string"
+							},
+							"desginatedAgencyRep": {
+								"type": "string"
+							},
+							"agcFlag": {
+								"type": "boolean"
+							},
+							"TaskOrderList": {
+								"type": "array",
+								"items": {
+									"minItems": 0,
+									"maxItems": 10,
+									"type": "object",
+									"properties": {
+										"taskOrderID": {
+											"type": "string"
+										},
+										"startDate": {
+											"type": "string"
+										},
+										"endDate": {
+											"type": "string"
+										},
+										"spendingLimit": {
+											"type": "string"
+										},
+										"orderRepresentive": {
+											"type": "string"
+										},
+										"action": {
+											"type": "string",
+											"enum": [
+												"A", "C", "D", "N"
+											]
+										},
+										"taskOrderType": {
+											"type": "string"
+										},
+										"serviceList": {
+											"type": "array",
+											"items": {
+												"minItems": 0,
+												"maxItems": 20,
+												"type": "string",
+												"enum": [
+													"CAAS", "NETBOND", "STAAS"
+												]
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+		],
+		"account": {
+			"_id": "ObjectId(5b323af2cb58a5000d319108)",
+			"info": {
+				"createEvent": {
+					"timeStamp": "2018-06-26T13:09:06.428Z",
+					"path": "API",
+					"sourceSystem": "System1",
+					"user": "BVOIP_CSI"
+				},
+				"accountType": "SERVICE_SPECIFIC_CUSTOMER_REPRESENTATION",
+				"accountStatus": "NEW",
+				"identifier": [
+					{
+						"siebelRomeid": "76487",
+						"instarCustomerId": "7487245",
+						"functionalAreaOrgCodeId": {
+							"functionalArea": "87587",
+							"organizationCode": "CLO"
+						},
+						"mcnTriplet": {
+							"masterCustomerNumber": "MCN8622",
+							"salesOfficeCode": "SOC8622",
+							"billingGroupCode": "GRC8622"
+						},
+						"gamsAccountCode": "85874545",
+						"gemsCompanyId": "85982",
+						"platinumCompanyAbbreviation": "YUE654",
+						"cloudId": 874832,
+						"hostingSiteId": "536",
+						"cloudSubcompanyId": 87487,
+						"ubAccountId": "87587332",
+						"icoreCustomerId": "31345",
+						"mcnGrcLevel": {
+							"masterCustomerNumber": "MCN657602",
+							"groupRecordCode": "24567"
+						},
+						"canopiEnterpriseId": "435",
+						"idisSubscriberId": "6543",
+						"hostingPartner": "3456",
+						"serviceinstanceId": 32456,
+						"serviceGroupid": 98765,
+						"saartL1Id": "3245",
+						"saartL2Id": "8765",
+						"domainName": "NAME1",
+						"dialPlanId": "98698",
+						"gruaAccounts": {
+							"grua": "45256",
+							"accountId": "8758732"
+						}
+					}
+				],
+				"crossReferenceEntity": {
+					"service": [
+						{
+							"serviceName": "Service722",
+							"serviceId": "NULL"
+						}
+					],
+					"contract": [
+						{
+							"contractNumber": "13622",
+							"referencedService": []
+					}
+				]
+			},
+			"relatedAccountId": [
+				{
+					"accountId": 1127608496,
+					"functionType": "BILLED_BY",
+					"functionRole": "NULL"
+				}
+			]
+		},
+		"account": {
+			"accountId": 1127608496,
+			"details": {
+				"name": "New Acct",
+				"isReadOnly": "N",
+				"accountUsageType": "BILL",
+				"salesGroup": "FGH",
+				"ubSubacctDescription": "48787",
+				"nodeName": "NODE1"
+			}
+		}
+	},
+	"service": [
+		{
+    "_id" : ObjectId("5b2beeac5a317700268c98f1"),
+    "uid" : "2407708299600000",
+    "changeSystem" : "EGF",
+    "changeUser" : "SOURAV",
+    "serviceTypeId" : "91",
+    "serviceName" : "AVPN7",
+    "displayName" : "AVPN7",
+    "readOnly" : "N",
+    "createEvent" : {
+        "timeStamp" : "2018-06-20T19:25:15Z",
+        "path" : "API",
+        "user" : "GDB"
+    },
+    "lastUpdateEvent" : {
+        "timeStamp" : "2018-06-20T19:25:15Z",
+        "path" : "API",
+        "user" : "GDB"
+    },
+    "serviceTypeNotations" : [ 
+        {
+            "Id" : "910",
+            "serviceId" : "911",
+            "serviceName" : "NB-IPVPN7",
+            "changeSystem" : "EGF",
+            "changeUser" : "CUSTACCT"
+        }, 
+        {
+            "Id" : "912",
+            "serviceId" : "913",
+            "serviceName" : "PL-AVPN7",
+            "changeSystem" : "EDF",
+            "changeUser" : "DPPCO"
+        }
+    ]
+}
+	],
+	"contact": [
+		{
+    "_id" : "243779226109009705",
+    "info" : {
+        "createEvent" : {
+            "timeStamp" : "2018-01-02T12:00:09.000Z",
+            "path" : "DMaaP",
+            "sourceSystem" : "ATS",
+            "user" : "ATS"
+        },
+        "lastUpdateEvent" : {
+            "timeStamp" : "2018-01-02T12:00:09.000Z",
+            "path" : "DMaaP",
+            "sourceSystem" : "ATS",
+            "user" : "ATS"
+        },
+        "identifiers" : [ 
+            "Deric", 
+            "Abraham", 
+            "77772", 
+            "9746567846", 
+            "dericabraham@gmail.com"
+        ],
+        "identifier" : {
+            "firstName" : "Deric",
+            "lastName" : "Abraham",
+            "sourceContId" : "77772",
+            "phone" : "9746567846",
+            "email" : "dericabraham@gmail.com"
+        },
+        "objectType" : "CONTACT",
+        "objectUId" : "243779226109009705",
+        "contactStatus" : "ACTIVE",
+        "unificationRecIds" : [],
+        "unification" : {
+            "unifiedSourceDetails" : [ 
+                {}
+            ]
+        },
+        "crossReferenceEntities" : [ 
+            "2430818314700000", 
+            "243779201391000"
+        ],
+        "crossReferenceEntity" : {
+            "asset" : [ 
+                {
+                    "assetUId" : "2430818314700000"
+                }, 
+                {
+                    "assetUId" : "243779201391000"
+                }
+            ],
+            "account" : []
+        }
+    },
+    "contact" : {
+        "objectUId" : "243779226109009705",
+        "details" : {
+            "firstName" : "Deric",
+            "lastName" : "Abraham",
+            "salutation" : "Mr",
+            "jobTitle" : "Designer",
+            "prefLang" : "Frenchh",
+            "timeZone" : "IST",
+            "lastValidDate" : "2017-01-01",
+            "isVerifOpted" : "N",
+            "bussName" : "CISCO",
+            "attUID" : "ar2425",
+            "isOnSite" : "Y",
+            "isReadOnly" : "N",
+            "sourceContId" : "77772",
+            "phone" : [ 
+                {
+                    "type" : "Work Phone",
+                    "phoneNumber" : "9746567846",
+                    "isPreferred" : "Y"
+                }
+            ],
+            "email" : [ 
+                {
+                    "type" : "Work Email",
+                    "emailAddress" : "dericabraham@gmail.com",
+                    "ispreferred" : "Y"
+                }
+            ]
+        }
+    }
+}
+	],
+	"location": {
+    "_id" : "2437751512980019262",
+    "_class" : "com.att.edfms.db.SiteCollection",
+    "info" : {
+        "createEvent" : {
+            "timeStamp" : "2018-07-26T13:02:06.555+0000",
+            "path" : "API",
+            "sourceSystem" : "INSTAR"
+        },
+        "objectType" : "SITE",
+        "siteUid" : "2437751512980019262",
+        "siteType" : "INVENTORY_SITE_REPRESENTATION",
+        "identifier" : [ 
+            "3691710", 
+            "tsainc.com"
+        ],
+        "identifiers" : {
+            "simpleSiteIdentifier" : "3691710",
+            "domainName" : "tsainc.com"
+        }
+    },
+    "site" : {
+        "details" : {
+            "isReadOnly" : "Y",
+            "room" : "TELCO",
+            "floor" : "1",
+            "building" : "EAST TWR"
+        }
+    },
+    "address" : [ 
+        {
+            "addressUid" : "2437751508550019262",
+            "location" : {
+                "type" : "Point",
+                "coordinates" : [ 
+                    -96.793537, 
+                    33.023754
+                ]
+            },
+            "details" : {
+                "addressLine" : {
+                    "addressLine1" : "4965 PRESTON PARK BLVD"
+                },
+                "countryCode" : "USA",
+                "subdivision" : "TX",
+                "city" : "PLANO",
+                "postalCode" : "750935180",
+                "geocodeQuality" : "S5-S80-AP02",
+                "isReadOnly" : "Y",
+                "idGlobalLocation" : "00001JCNNU",
+                "searchableAddress" : "4965 PRESTON PARK BLVD,PLANO,TX,750935180,USA"
+            }
+        }
+    ]
+},
+	"ticket": {
+		"count": {
+			"active": 500,
+			"cleared": 1000,
+			"customerContested": 10,
+			"requestClosed": null,
+			"defered": 5
+		}
+	},
+	"alarm": {
+		"count": {
+			"active": 500,
+			"unacknowledged": 34,
+			"utilityCritical": 45,
+			"utilityWarning": 54,
+			"congestion": 67
+		},
+		"list": [
+			"alarmUId1", "alarmUId2", "To discuss"
+		]
+	},
+	"order": {
+		"count": {
+			"completed": 500,
+			"pending": 34,
+			"cancelled": 457
+		},
+		"list-Option1": [
+			{
+				"number": "123",
+				"status": "Pending",
+				"type": "CH",
+				"acty": [
+					"Add TN", "Change TN"
+				]
+			}, {
+				"number": "8765",
+				"status": "Pending",
+				"type": "CH",
+				"acty": [
+					"Add TN", "Change TN"
+				]
+			}
+		],
+		"list-Option2": {
+			"pending": [
+				{
+					"number": "123",
+					"type": "CH",
+					"acty": [
+						"Add TN", "Change TN"
+					]
+				}, {
+					"number": "8765",
+					"type": "CH",
+					"acty": [
+						"Add TN", "Change TN"
+					]
+				}
+			],
+			"completed": [
+				{
+					"number": "123b",
+					"type": "CH",
+					"acty": [
+						"Add TN", "Change TN"
+					]
+				}, {
+					"number": "8765b",
+					"type": "CH",
+					"acty": [
+						"Add TN", "Change TN"
+					]
+				}
+			]
+		}
+	},
+	"asset": {
+		"_id": "ObjectId(5b30d7eb7f909b000d463f9a)",
+		"_class": "com.mongodb.BasicDBObject",
+		"info": {
+			"createEvent": {
+				"timeStamp": "2018-06-25T11:54:18.752Z",
+				"path": "EDF",
+				"sourcesystem": "BVOIP-CSI"
+			},
+			"lastUpdateEvent": {
+				"timeStamp": "2018-06-25T11:54:19.157Z",
+				"path": "EDF",
+				"sourcesystem": "BVOIP-CSI"
+			},
+			"objectType": "ASSET",
+			"assetUId": "2410926840290000",
+			"assettype": "REMOTE_BVOIP_PRESENCE",
+			"identifier": {
+				"standPhNumIdentifier": [
+					"14805092234", "14805092235", "14805092236", "14805092237", "14805092238", "14805092239"
+				],
+				"threeCompPhNumIdentifier": [
+					{
+						"threeCompPhNumCntyCode": "480",
+						"threeCompPhNumAreaCode": "1",
+						"threeCompPhNumLnNum": [
+							"5092234", "5092235", "5092236", "5092237", "5092238", "5092239"
+						]
+					}
+				],
+				"twoCompPhNumIdentifier": [
+					{
+						"twoCompPhNumCntyCode": "1",
+						"twoCompPhNumCntyLnNum": [
+							"4805092234", "4805092235", "4805092236", "4805092237", "4805092238", "4805092239"
+						]
+					}
+				],
+				"phNumIdentifier": [
+					"4805092234", "4805092235", "4805092236", "4805092237", "4805092238", "4805092239"
+				]
+			},
+			"unification": {
+				"unifiedSourceDetails": [
+					{
+						"recId": "5b30d7ea7f909b000d463f98"
+					}
+				]
+			},
+			"relatedAssetUId": [],
+			"endToEndKey": [],
+			"links": []
+		},
+		"asset": {
+			"details": {
+				"sourceRootKey": 549235,
+				"assetIdentifier": {
+					"phoneNumIdentifier": [
+						{
+							"rmSiteCountryCode": "1",
+							"rmSiteGWCityCode": "480",
+							"rmSitePBXBeginRange": "5092234",
+							"rmSitePBXEndRange": "5092239"
+						}
+					]
+				},
+				"bvoipOption": []
+			}
+		}
+	}
+}
+}
